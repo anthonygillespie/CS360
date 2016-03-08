@@ -1,0 +1,132 @@
+
+
+<html>
+<head>
+<title>City Finder</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+<body>
+<form>
+Enter A Utah City: <input type="text" id="cityfield" value=""><br>
+Suggestion: <span id="txtHint">Empty</span>
+<input id="button" type="submit" value="Submit">
+</form>
+<p>City</p>
+<textarea id="dispcity">No City</textarea>
+<p>Current Weather</p>
+<div id="weather">No weather</div>
+
+// <script>
+// $(document).ready(function() {
+// $( "#cityfield" ).keyup(function() {
+//   $.getJSON("staticCity.txt",function(data) {
+//     console.log("Got "+data);
+//     console.log("Got "+data[0]);
+//     console.log("Got "+data[0].city);
+
+// 	  var everything;
+// 	  everything = "<ul>";
+// 	  $.each(data, function(i,item) {
+// 	    everything += "<li> "+data[i].city;
+// 	  });
+	    
+// 	  everything += "</ul>";
+// 	  $("#txtHint").html(everything);
+
+//     });
+//     $("#txtHint").text("Keyup "+$("#cityfield").val());
+//   });  
+// });
+// </script>
+
+<script>
+$(document).ready(function() {
+	$( "#cityfield" ).keyup(function() {
+		var url = "https://students.cs.byu.edu/~clement/CS360/ajax/getcity.cgi?q="+$("#cityfield").val();
+		$.getJSON(url,function(data) {
+	    var everything;
+	    everything = "<ul>";
+	    $.each(data, function(i,item) {
+	      everything += "<li> "+data[i].city;
+	    });
+	    everything += "</ul>";
+	    $("#txtHint").html(everything);
+	  })
+	  .done(function() { console.log('getJSON request succeeded!'); })
+	  .fail(function(jqXHR, textStatus, errorThrown) { 
+	    console.log('getJSON request failed! ' + textStatus); 
+	    console.log("incoming "+jqXHR.responseText);
+	  })
+	  .always(function() { console.log('getJSON request ended!');
+	  })
+	  .complete(function() { console.log("complete"); });
+	});
+
+	$("#button").click(function(e){
+	var value = $("#cityfield").val();
+	console.log(value);
+	e.preventDefault();
+	$("#dispcity").text(value);
+	});
+});
+</script>
+
+<script>
+	// $("#button").click(function(e){
+	// var value = $("#cityfield").val();
+	// console.log(value);
+	// e.preventDefault();
+	// $("#dispcity").text(value);
+	// });
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather App by Anthony Gillespie</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<h2>Talk to WeatherBot!</h2>
+
+	<iframe name="cleverbot" width=540 height=200 allowtransparency=true frameborder=0 scrolling=no src="http://www.cleverbot.com/cleverbotif"></iframe>
+	
+	<div>
+		<img src="images/hurricane_from_space.jpg" alt="Hurricane from space">
+	</div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+ -->
+

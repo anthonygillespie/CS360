@@ -1,0 +1,6 @@
+How to use express
+
+express nameOfDirectory -ejs
+cd nameOfDirectory
+npm install
+npm start
