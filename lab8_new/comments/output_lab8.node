@@ -1,0 +1,3 @@
+Command 'nohup' is available in '/usr/bin/nohup'
+The command could not be located because '/usr/bin' is not included in the PATH environment variable.
+nohup: command not found
