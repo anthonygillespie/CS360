@@ -13,10 +13,21 @@
   <h1>Comments </h1>
 </div>
 
+  <h3>Choose Your Team:</h3>
+  <div class="btn-group" role="group" aria-label="...">
+    <button ng-click="changeTeam('Red')" type="button" class="btn btn-default">Red</button>
+    <button ng-click="changeTeam('Green')" type="button" class="btn btn-default">Green</button>
+    <button ng-click="changeTeam('Blue')" type="button" class="btn btn-default">Blue</button>
+  </div>
+  <div>
+    Your team: {{team}}
+  </div>
+
   <form ng-submit="addComment()" style = "margin-top30px;">
     <input type="text" ng-model="formContent"></input>
     <button type="submit">Add Comment</button>
   </form>
+
   <div>
     {{test}}
   </div>

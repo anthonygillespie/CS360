@@ -3,7 +3,12 @@ angular.module('comment', [])
   '$scope','$http', 
   function($scope,$http){
     $scope.test = 'Hello world!';
+    $scope.team = 'Red';
     $scope.comments = [];
+
+     $scope.changeTeam = function(team) {
+        $scope.team = team;
+     };
 
     $scope.create = function(comment) {
       return $http.post('/comments', comment).success(function(data){
