@@ -190,3 +190,14 @@ in quote
 [0mGET /favicon.ico [33m404 [0m0.818 ms - 1076[0m
 [0mGET / [32m200 [0m203.724 ms - 3249[0m
 [0mPOST /comments [33m404 [0m532.108 ms - 1076[0m
+[0mGET /test/ [33m404 [0m1.159 ms - 1076[0m
+[0mGET / [32m200 [0m1.676 ms - 3249[0m
+[0mGET /favicon.ico [33m404 [0m1.562 ms - 1076[0m
+[0mGET /favicon.ico [33m404 [0m1.130 ms - 1076[0m
+[0mGET /test/ [33m404 [0m1.612 ms - 1076[0m
+[0mGET /test/ [33m404 [0m34.539 ms - 1076[0m
+[0mGET / [32m200 [0m65.779 ms - 3249[0m
+[0mGET /favicon.ico [33m404 [0m1.470 ms - 1076[0m
+[0mGET /test/ [33m404 [0m2.902 ms - 1076[0m
+[0mGET /favicon.ico [33m404 [0m0.893 ms - 1076[0m
+[0mGET / [36m304 [0m0.577 ms - -[0m
