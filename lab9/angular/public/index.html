@@ -9,23 +9,42 @@
 <body ng-app="comment" ng-controller="MainCtrl">
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
-<div class="page-header"> 
-  <h1>Comments </h1>
+<div class="page-header" ng-style="setColor(titleColor)">
+  <h1>Comments</h1>
+
 </div>
+
+  <h3>Choose Your Color:</h3>
+  <div>
+    (Each comment has a color and the title of the webpage is the color of the top comment.)
+  </div>
+  <div class="btn-group" role="group" aria-label="...">
+    <button ng-click="changeColor('red')" type="button" class="btn btn-default">Red</button>
+    <button ng-click="changeColor('green')" type="button" class="btn btn-default">Green</button>
+    <button ng-click="changeColor('blue')" type="button" class="btn btn-default">Blue</button>
+  </div>
+  <div ng-style="setColor(userColor)">
+    Your color is currently {{userColor}}.
+  </div>
 
   <form ng-submit="addComment()" style = "margin-top30px;">
     <input type="text" ng-model="formContent"></input>
     <button type="submit">Add Comment</button>
   </form>
+
   <div>
     {{test}}
   </div>
   <div ng-repeat="comment in comments | orderBy: '-upvotes'">
-    <span class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(comment)"></span>
-    {{comment.title}} - upvotes: {{comment.upvotes}}
+    <div ng-if="$first" ng-init="changeTitleColor(comment.color)"> 
+    </div>
+    <div ng-style="setColor(comment.color)">
+      <span class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(comment)"></span>
+      {{comment.title}} -  upvotes: {{comment.upvotes}}
+    </div>
   </div>
 </div>
 </div>
+
 </body>
 </html>
-

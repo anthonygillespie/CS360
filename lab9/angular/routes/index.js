@@ -4,21 +4,6 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var Comment = mongoose.model('Comment');
 
-router.get('/comments', function(req, res, next) {
-  Comment.find(function(err, comments){
-    if(err){ return next(err); }
-    res.json(comments);
-  });
-});
-
-router.post('/comments', function(req, res, next) {
-  var comment = new Comment(req.body);
-  Comment.save(function(err, comment){
-    if(err){ return next(err); }
-    res.json(comment);
-  });
-});
-
 router.param('comment', function(req, res, next, id) {
   var query = Comment.findById(id);
   query.exec(function (err, comment){
@@ -37,6 +22,21 @@ router.put('/comments/:comment/upvote', function(req, res, next) {
   req.comment.upvote(function(err, comment){
     if (err) { return next(err); }
     res.json(comment);
+  });
+});
+
+router.post('/comments', function(req, res, next) {
+  var comment = new Comment(req.body);
+  comment.save(function(err, comment){
+    if(err){ return next(err); }
+    res.json(comment);
+  });
+});
+
+router.get('/comments', function(req, res, next) {
+  Comment.find(function(err, comments){
+    if(err){ return next(err); }
+    res.json(comments);
   });
 });
 
