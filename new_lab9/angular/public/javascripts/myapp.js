@@ -3,12 +3,24 @@ angular.module('comment', [])
   '$scope','$http', 
   function($scope,$http){
     $scope.test = 'Hello world!';
-    $scope.team = 'Red';
+    $scope.userColor = 'red';
+    $scope.titleColor = 'black';
     $scope.comments = [];
 
-     $scope.changeTeam = function(team) {
-        $scope.team = team;
+     $scope.changeColor = function(colorName) {
+        $scope.userColor = colorName;
      };
+
+    $scope.setColor = function(commentColor){
+      return {
+        color: commentColor
+      };
+    };
+
+    $scope.changeTitleColor = function(commentColor){
+      console.log(commentColor)
+      $scope.titleColor = commentColor
+    };
 
     $scope.create = function(comment) {
       return $http.post('/comments', comment).success(function(data){
@@ -22,6 +34,7 @@ angular.module('comment', [])
       $scope.create({
         title: $scope.formContent,
         upvotes: 0,
+        color: $scope.userColor,
       });
       $scope.formContent = '';
     };

@@ -9,7 +9,7 @@
 6 silly lifecycle angular@0.0.0~prestart: no script for prestart, continuing
 7 info lifecycle angular@0.0.0~start: angular@0.0.0
 8 verbose lifecycle angular@0.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle angular@0.0.0~start: PATH: /opt/bitnami/nodejs/lib/node_modules/npm/bin/node-gyp-bin:/home/bitnami/CS360/new_lab9/angular/node_modules/.bin:/opt/bitnami/nodejs/bin:/opt/bitnami/git/bin:/opt/bitnami/mongodb/bin:/opt/bitnami/sqlite/bin:/opt/bitnami/php/bin:/opt/bitnami/python/bin:/opt/bitnami/apache2/bin:/opt/bitnami/common/bin:/opt/bitnami/nodejs/bin:/opt/bitnami/git/bin:/opt/bitnami/mongodb/bin:/opt/bitnami/sqlite/bin:/opt/bitnami/php/bin:/opt/bitnami/python/bin:/opt/bitnami/apache2/bin:/opt/bitnami/common/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+9 verbose lifecycle angular@0.0.0~start: PATH: /opt/bitnami/nodejs/lib/node_modules/npm/bin/node-gyp-bin:/home/bitnami/CS360/new_lab9/angular/node_modules/.bin:/opt/bitnami/nodejs/bin:/opt/bitnami/git/bin:/opt/bitnami/mongodb/bin:/opt/bitnami/sqlite/bin:/opt/bitnami/php/bin:/opt/bitnami/python/bin:/opt/bitnami/apache2/bin:/opt/bitnami/common/bin:/opt/bitnami/nodejs/bin:/opt/bitnami/git/bin:/opt/bitnami/mongodb/bin:/opt/bitnami/sqlite/bin:/opt/bitnami/php/bin:/opt/bitnami/python/bin:/opt/bitnami/apache2/bin:/opt/bitnami/common/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 10 verbose lifecycle angular@0.0.0~start: CWD: /home/bitnami/CS360/new_lab9/angular
 11 silly lifecycle angular@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle angular@0.0.0~start: Returned: code: 1  signal: null

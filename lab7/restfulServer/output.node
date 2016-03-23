@@ -204,3 +204,4 @@ in quote
 [0mPOST /comments [33m404 [0m1.464 ms - 1076[0m
 [0mGET /test/ [33m404 [0m0.905 ms - 1076[0m
 [0mGET / [36m304 [0m0.456 ms - -[0m
+[0mGET /test/ [33m404 [0m0.849 ms - 1076[0m
