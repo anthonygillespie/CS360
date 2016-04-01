@@ -1,27 +1,200 @@
-nohup: ignoring input
 
-> angular@0.0.0 start /home/bitnami/CS360/new_lab9/angular
+> angular@0.0.0 start /home/bitnami/CS360/lab9/angular
 > node ./bin/www
 
-Port 3000 is already in use
-
-npm ERR! Linux 3.13.0-71-generic
-npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
-npm ERR! node v5.1.1
-npm ERR! npm  v3.3.12
-npm ERR! code ELIFECYCLE
-npm ERR! angular@0.0.0 start: `node ./bin/www`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the angular@0.0.0 start script 'node ./bin/www'.
-npm ERR! Make sure you have the latest version of node.js and npm installed.
-npm ERR! If you do, this is most likely a problem with the angular package,
-npm ERR! not with npm itself.
-npm ERR! Tell the author that this fails on your system:
-npm ERR!     node ./bin/www
-npm ERR! You can get their info via:
-npm ERR!     npm owner ls angular
-npm ERR! There is likely additional logging output above.
-
-npm ERR! Please include the following file with any support request:
-npm ERR!     /home/bitnami/CS360/new_lab9/angular/npm-debug.log
+[0mGET / [36m304 [0m161.213 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m1.950 ms - -[0m
+[0mGET /comments [36m304 [0m331.855 ms - -[0m
+[0mGET / [36m304 [0m0.652 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.317 ms - -[0m
+[0mGET /comments [36m304 [0m3.306 ms - -[0m
+[0mGET / [36m304 [0m0.397 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.292 ms - -[0m
+[0mGET /comments [36m304 [0m1.751 ms - -[0m
+[0mPOST /comments [32m200 [0m619.772 ms - 86[0m
+[0mPUT /comments/56f31f59998f33e33c655abf/upvote [32m200 [0m162.283 ms - 86[0m
+[0mPUT /comments/56f31f59998f33e33c655abf/upvote [32m200 [0m2.603 ms - 86[0m
+[0mPUT /comments/56f3127eb469515c3bc2ec35/upvote [32m200 [0m2.618 ms - 85[0m
+[0mPUT /comments/56f31761b469515c3bc2ec37/upvote [32m200 [0m122.330 ms - 100[0m
+[0mGET / [36m304 [0m0.314 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.367 ms - -[0m
+[0mGET /comments [32m200 [0m2.647 ms - 541[0m
+[0mGET / [36m304 [0m0.322 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.380 ms - -[0m
+[0mGET /comments [36m304 [0m3.116 ms - -[0m
+[0mGET / [36m304 [0m0.684 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.302 ms - -[0m
+[0mGET /comments [36m304 [0m3.499 ms - -[0m
+[0mGET / [36m304 [0m77.883 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.294 ms - -[0m
+[0mGET /comments [36m304 [0m2.426 ms - -[0m
+[0mGET / [36m304 [0m0.314 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.327 ms - -[0m
+[0mGET /comments [36m304 [0m1.990 ms - -[0m
+[0mGET / [36m304 [0m0.314 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.317 ms - -[0m
+[0mGET /comments [36m304 [0m2.360 ms - -[0m
+[0mGET / [36m304 [0m0.532 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.304 ms - -[0m
+[0mGET /comments [36m304 [0m81.220 ms - -[0m
+[0mGET / [36m304 [0m0.312 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.301 ms - -[0m
+[0mGET /comments [36m304 [0m205.915 ms - -[0m
+[0mGET / [36m304 [0m0.303 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.292 ms - -[0m
+[0mGET /comments [36m304 [0m2.397 ms - -[0m
+[0mGET / [36m304 [0m0.291 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.406 ms - -[0m
+[0mGET /comments [36m304 [0m2.605 ms - -[0m
+[0mGET / [36m304 [0m0.302 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.294 ms - -[0m
+[0mGET /comments [36m304 [0m2.200 ms - -[0m
+[0mGET / [36m304 [0m0.293 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.406 ms - -[0m
+[0mGET /comments [36m304 [0m83.190 ms - -[0m
+[0mGET / [36m304 [0m0.327 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.419 ms - -[0m
+[0mGET /comments [36m304 [0m3.227 ms - -[0m
+[0mGET / [32m200 [0m2.232 ms - 1648[0m
+[0mGET /favicon.ico [33m404 [0m7243.935 ms - 1754[0m
+[0mGET / [32m200 [0m1.545 ms - 1648[0m
+[0mGET /favicon.ico [33m404 [0m860.227 ms - 1754[0m
+[0mGET /favicon.ico [33m404 [0m866.276 ms - 1754[0m
+[0mGET /? [32m200 [0m0.972 ms - 1648[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.519 ms - -[0m
+[0mGET /comments [36m304 [0m3.118 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m371.977 ms - 1754[0m
+[0mGET /? [32m200 [0m0.548 ms - 1648[0m
+[0mGET /javascripts/myapp.js [32m200 [0m0.566 ms - 1520[0m
+[0mGET /comments [32m200 [0m2.066 ms - 541[0m
+[0mGET /favicon.ico [33m404 [0m408.217 ms - 1754[0m
+[0mPOST /comments [32m200 [0m80.905 ms - 92[0m
+[0mGET /? [36m304 [0m0.398 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.286 ms - -[0m
+[0mGET /comments [32m200 [0m2.215 ms - 634[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m2.482 ms - 92[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m2.460 ms - 92[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m2.642 ms - 92[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m3.119 ms - 92[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m41.412 ms - 92[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m2.438 ms - 92[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m40.953 ms - 92[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m1.986 ms - 92[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m2.696 ms - 92[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m1.950 ms - 93[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m3.151 ms - 93[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m40.991 ms - 93[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m2.538 ms - 93[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m41.527 ms - 93[0m
+[0mGET /? [36m304 [0m1.212 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.329 ms - -[0m
+[0mGET /comments [32m200 [0m2.702 ms - 635[0m
+[0mGET /? [36m304 [0m0.294 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.316 ms - -[0m
+[0mGET /comments [36m304 [0m81.944 ms - -[0m
+[0mPUT /comments/56f3147eb469515c3bc2ec36/upvote [32m200 [0m2.442 ms - 88[0m
+[0mPUT /comments/56f3147eb469515c3bc2ec36/upvote [32m200 [0m2.606 ms - 88[0m
+[0mPUT /comments/56f3147eb469515c3bc2ec36/upvote [32m200 [0m87.728 ms - 88[0m
+[0mPUT /comments/56f3147eb469515c3bc2ec36/upvote [32m200 [0m3.190 ms - 89[0m
+[0mPUT /comments/56f3147eb469515c3bc2ec36/upvote [32m200 [0m2.349 ms - 89[0m
+[0mPUT /comments/56f3147eb469515c3bc2ec36/upvote [32m200 [0m2.134 ms - 89[0m
+[0mPUT /comments/56f3147eb469515c3bc2ec36/upvote [32m200 [0m40.905 ms - 89[0m
+[0mPUT /comments/56f3147eb469515c3bc2ec36/upvote [32m200 [0m1.979 ms - 89[0m
+[0mGET /? [36m304 [0m0.346 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.323 ms - -[0m
+[0mGET /comments [32m200 [0m79.810 ms - 636[0m
+[0mGET /? [36m304 [0m0.410 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.300 ms - -[0m
+[0mGET /comments [32m200 [0m79.267 ms - 636[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m2.270 ms - 93[0m
+[0mPUT /comments/56f31266b469515c3bc2ec33/upvote [32m200 [0m1.811 ms - 83[0m
+[0mPUT /comments/56f31266b469515c3bc2ec33/upvote [32m200 [0m2.696 ms - 83[0m
+[0mPUT /comments/56f31266b469515c3bc2ec33/upvote [32m200 [0m2.001 ms - 83[0m
+[0mPUT /comments/56f31266b469515c3bc2ec33/upvote [32m200 [0m2.048 ms - 83[0m
+[0mPUT /comments/56f31266b469515c3bc2ec33/upvote [32m200 [0m83.044 ms - 84[0m
+[0mPUT /comments/56f31266b469515c3bc2ec33/upvote [32m200 [0m1.828 ms - 84[0m
+[0mPUT /comments/56f31266b469515c3bc2ec33/upvote [32m200 [0m2.225 ms - 84[0m
+[0mPUT /comments/56f31266b469515c3bc2ec33/upvote [32m200 [0m83.305 ms - 84[0m
+[0mPUT /comments/56f31266b469515c3bc2ec33/upvote [32m200 [0m2.466 ms - 84[0m
+[0mPUT /comments/56f3147eb469515c3bc2ec36/upvote [32m200 [0m1.763 ms - 89[0m
+[0mPUT /comments/56f31266b469515c3bc2ec33/upvote [32m200 [0m1.930 ms - 84[0m
+[0mPUT /comments/56f4d47a998f33e33c655ac0/upvote [32m200 [0m1.810 ms - 93[0m
+[0mPUT /comments/56f31266b469515c3bc2ec33/upvote [32m200 [0m1.887 ms - 84[0m
+[0mPUT /comments/56f3147eb469515c3bc2ec36/upvote [32m200 [0m1.859 ms - 89[0m
+[0mPUT /comments/56f31266b469515c3bc2ec33/upvote [32m200 [0m3.043 ms - 84[0m
+[0mPUT /comments/56f3147eb469515c3bc2ec36/upvote [32m200 [0m2.398 ms - 89[0m
+[0mPUT /comments/56f3147eb469515c3bc2ec36/upvote [32m200 [0m3.099 ms - 89[0m
+[0mGET /comments/ [32m200 [0m1.763 ms - 637[0m
+[0mPUT /comments/56f31f59998f33e33c655abf/upvote [32m200 [0m1.817 ms - 86[0m
+[0mPUT /comments/56f31761b469515c3bc2ec37/upvote [32m200 [0m1.885 ms - 100[0m
+[0mPUT /comments/56f3127eb469515c3bc2ec35/upvote [32m200 [0m80.359 ms - 85[0m
+[0mPUT /comments/56f3127eb469515c3bc2ec35/upvote [32m200 [0m41.075 ms - 85[0m
+[0mPOST /comments [32m200 [0m1.750 ms - 100[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m1.892 ms - 100[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m2.784 ms - 100[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m2.455 ms - 100[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m227.552 ms - 100[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m295.692 ms - 100[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m2.714 ms - 100[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m32.823 ms - 100[0m
+[0mPUT /comments/56f31f59998f33e33c655abf/upvote [32m200 [0m1.816 ms - 86[0m
+[0mPUT /comments/56f31f59998f33e33c655abf/upvote [32m200 [0m30.705 ms - 86[0m
+[0mPUT /comments/56f31761b469515c3bc2ec37/upvote [32m200 [0m3.526 ms - 100[0m
+[0mPUT /comments/56f31273b469515c3bc2ec34/upvote [32m200 [0m3.155 ms - 92[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m1.887 ms - 100[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m3.144 ms - 100[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m2.110 ms - 100[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m3.037 ms - 100[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m1.811 ms - 101[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m1.849 ms - 101[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m2.277 ms - 101[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m2.505 ms - 101[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m1.836 ms - 101[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m1.869 ms - 101[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m1.905 ms - 101[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m1.825 ms - 101[0m
+[0mGET /? [36m304 [0m0.342 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.453 ms - -[0m
+[0mGET /comments [32m200 [0m98.885 ms - 739[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m63.944 ms - 101[0m
+[0mPUT /comments/56f4d7ce998f33e33c655ac1/upvote [32m200 [0m1.810 ms - 101[0m
+[0mGET /? [36m304 [0m0.411 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.282 ms - -[0m
+[0mGET /comments [32m200 [0m70.678 ms - 739[0m
+[0mGET / [32m200 [0m0.586 ms - 1648[0m
+[0mGET /favicon.ico [33m404 [0m165.528 ms - 1754[0m
+[0mGET / [36m304 [0m0.343 ms - -[0m
+[0mGET /javascripts/myapp.js [36m304 [0m0.339 ms - -[0m
+[0mGET /comments [32m200 [0m2.474 ms - 739[0m
+[0mGET / [32m200 [0m0.581 ms - 1648[0m
+[0mGET /javascripts/myapp.js [32m200 [0m42.493 ms - 1520[0m
+[0mGET /comments [32m200 [0m2.554 ms - 739[0m
+[0mGET / [32m200 [0m1.213 ms - 1648[0m
+[0mGET /favicon.ico [33m404 [0m290.099 ms - 1754[0m
+[0mGET / [32m200 [0m86.946 ms - 1648[0m
+[0mGET /favicon.ico [33m404 [0m488.819 ms - 1754[0m
+[0mGET / [32m200 [0m0.441 ms - 1648[0m
+[0mGET /favicon.ico [33m404 [0m329.118 ms - 1754[0m
+[0mGET /favicon.ico [33m404 [0m88.262 ms - 1754[0m
+[0mGET / [32m200 [0m0.559 ms - 1648[0m
+[0mGET /favicon.ico [33m404 [0m84.720 ms - 1754[0m
+[0mGET /favicon.ico [33m404 [0m120.817 ms - 1754[0m
+[0mGET / [32m200 [0m0.544 ms - 1648[0m
+[0mGET /favicon.ico [33m404 [0m209.114 ms - 1754[0m
+[0mGET /favicon.ico [33m404 [0m328.275 ms - 1754[0m
+[0mGET / [32m200 [0m0.457 ms - 1648[0m
+[0mGET /javascripts/myapp.js [32m200 [0m1.878 ms - 1520[0m
+[0mGET /favicon.ico [33m404 [0m124.731 ms - 1754[0m
+[0mGET /comments [32m200 [0m329.668 ms - 739[0m
+[0mPOST /comments [32m200 [0m289.915 ms - 82[0m
+[0mPUT /comments/56fd4b10998f33e33c655ac2/upvote [32m200 [0m41.000 ms - 82[0m
+[0mPUT /comments/56fd4b10998f33e33c655ac2/upvote [32m200 [0m83.412 ms - 82[0m
+[0mGET / [32m200 [0m0.479 ms - 1648[0m
+[0mGET /favicon.ico [33m404 [0m39.419 ms - 1754[0m
+[0mGET /favicon.ico [33m404 [0m209.758 ms - 1754[0m
+[0mGET / [32m200 [0m0.451 ms - 1648[0m
+[0mGET /favicon.ico [33m404 [0m659.336 ms - 1754[0m
+[0mGET / [32m200 [0m0.597 ms - 1648[0m
+[0mGET /javascripts/myapp.js [32m200 [0m0.533 ms - 1520[0m
+[0mGET /comments [32m200 [0m81.504 ms - 822[0m
+[0mGET /favicon.ico [33m404 [0m861.581 ms - 1754[0m
